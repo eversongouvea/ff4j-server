@@ -1,0 +1,11 @@
+spring:
+  datasource:
+     url: jdbc:sqlserver://localhost:11433;databaseName=ff4j
+     username: SA
+     password: Everson@2019    
+  jpa:
+      show-sql: true
+      hibernate.ddl-auto : validate
+      properties:
+        hibernate.dialect: org.hibernate.dialect.SQLServer2012Dialect
+        hibernate.default_schema: dbo
